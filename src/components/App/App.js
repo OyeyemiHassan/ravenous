@@ -1,8 +1,8 @@
 import React from 'react';
 import logo from '/Users/mac/ravenous/src/logo.svg';
 import './App.css';
-import SearchBar from '/Users/mac/ravenous/src/components/SearchBar/SearchBar';
-import BusinessList from '/Users/mac/ravenous/src/components/BusinessList/BusinessList';
+import SearchBar from '../SearchBar/SearchBar';
+import BusinessList from '../BusinessList/BusinessList';
 
 
 class App extends React.Component {
@@ -13,7 +13,7 @@ class App extends React.Component {
       <SearchBar />
       <BusinessList />
     </div>
-    );
+    )
   }
 }
 
