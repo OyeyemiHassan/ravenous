@@ -9,7 +9,7 @@ class App extends React.Component {
     constructor(props) {
     super(props);
     this.state = {
-        businessess: [],
+        businesses: [],
     }
     this.searchYelp = this.searchYelp.bind(this)
 }
